@@ -1,0 +1,7 @@
+record_id,source_text,expected_regimen,expected_viral_load,expected_cd4,expected_adherence,expected_tb_screen,expected_allergy,expected_next_appointment
+HARD-1,"[2026-10-12] Pt on TLD. VL 1240. CD4 312. Missed pills 2 weeks, poor adherence. TB screen -ve. NKDA. TCA 12/01/2027.",TDF/3TC/DTG,1240,312,poor,negative,none,2027-01-12
+HARD-2,[2026-11-02] Cont TDF+3TC+DTG. Viral load undetectable (<50). CD4 improved to 540. Adherence good. No TB signs. No allergies. Come back 1 Feb 2027.,TDF/3TC/DTG,<50,540,good,negative,none,2027-02-01
+HARD-3,[2026-10-20] ABC/3TC/DTG continued. VL=40. CD4 410. Good adherence. TB screen: negative. Allergy: sulpha. Review on 2027-01-20.,ABC/3TC/DTG,40,410,good,negative,sulpha,2027-01-20
+HARD-4,[2025-12-01] Continues TDF/3TC/EFV. VL 60. [2026-11-15] Now on TLD. VL 12 000. CD4 190. Adherence: poor. TB screen positive. Nil allergies. Next appointment 2026-12-15.,TDF/3TC/DTG,12000,190,poor,positive,none,2026-12-15
+HARD-5,[2026-10-05] AZT/3TC/DTG. VL 380 on 2026-10-01. CD4 275. Adherence fair. TB screening negative. Allergic to penicillin. Next visit 2027-01-05.,AZT/3TC/DTG,380,275,fair,negative,penicillin,2027-01-05
+HARD-6,[2026-12-03] Regimen: TDF/3TC/DTG. VL TND. CD4 620. Taking meds well. TB neg. No known allergies. Next appt 2027-03-03.,TDF/3TC/DTG,not detected,620,good,negative,none,2027-03-03
