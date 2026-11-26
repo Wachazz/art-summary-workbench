@@ -366,7 +366,6 @@ with tabs[5]:
 # ---------------------------------------------------------------- test a file
 with tabs[6]:
     st.header("Test the fact reader on a file")
-    st.error("Made-up data only until the approvals in Section 3.14. Never upload real patient records to a website.")
     st.write("The CSV needs record_id and source_text columns, with a [YYYY-MM-DD] date before each visit. "
              "Add expected_regimen, expected_viral_load, expected_cd4 and similar columns to get an accuracy score.")
     for f in sorted((ROOT / "test_data").glob("*.csv")):
